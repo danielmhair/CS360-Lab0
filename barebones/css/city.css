@@ -1,0 +1,17 @@
+.list-style-none {
+	list-style: none !important;
+}
+
+.text-left {
+	text-align: left !important;
+}
+
+
+.image-night-byu {
+	min-height: 100%;
+	height: 950px;
+}
+
+input#city-weather {
+    margin-top: 10px;
+}
