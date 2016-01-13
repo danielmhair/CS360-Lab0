@@ -1,0 +1,40 @@
+.content {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+.loaded {
+  opacity: 1;
+}
+
+input.completed {
+  text-decoration:line-through;
+}
+
+.panel.panel-default {
+  background-color: whitesmoke;
+}
+
+.home-button {
+  margin-left: 30px;
+  padding: 20px;
+  font-size: 1.25em;
+}
+
+.home-button a {
+    color: gray; 
+}
+
+.home-button a:hover {
+    color: white;
+    text-decoration: none; 
+}
+
+body {
+  margin-bottom: 50px;
+}
+
+.education {
+  height: 355px;
+  margin-bottom: -85px;
+}

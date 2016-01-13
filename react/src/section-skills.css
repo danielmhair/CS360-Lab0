@@ -1,0 +1,30 @@
+.col-lg-6 {
+  width: 48%;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+span.business {
+  float: left;
+}
+
+span.date {
+  float: left;
+}
+
+div.history-details {
+  padding: 10px;
+  margin-bottom: 23px;
+}
+
+.mySkills {
+    margin-top: -240px;
+}
+
+.hobbies {
+    margin-top: -80px;
+}
+
+.history-items {
+  padding-left: 20px;
+}

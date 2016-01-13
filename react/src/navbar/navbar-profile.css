@@ -1,0 +1,81 @@
+.image-header .image-profile {
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url(../img/profile.jpg) no-repeat;
+  width: 175px;
+  height: 175px;
+  background-size: 300px;
+  background-position-x: -75px;
+  background-position-y: 0px;
+  z-index: 1;
+  margin: auto;
+  border: 10px solid #222;
+  margin-top: -100px;
+}
+
+.image-header h2,
+.image-header h3,
+.image-header p {
+  margin: 0;
+}
+
+.image-header.thumbnail {
+  margin-top: -20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  position: absolute;
+  z-index: 1001;
+  background-color: white;
+  border: none;
+  margin-bottom: 0px;
+  padding: 0px !important;
+}
+
+.navbar {
+  padding: 20px;
+}
+
+header {
+  position:fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.container.todo {
+    margin-top: 250px;
+}
+
+.nameOnly.image-profile,
+.nameOnly.caption p {
+  display: none;
+}
+
+.nameOnly h3 {
+  margin-top: -80px !important;
+  color: white !important;
+  font-size: 2.5em !important;
+  opacity: 1 !important;
+  -webkit-transition: margin-top 1s, color 1s, font-size 1s;
+  -moz-transition: margin-top 1s, color 1s, font-size 1s;
+  -o-transition: margin-top 1s, color 1s, font-size 1s;
+  transition: margin-top 1s, color 1s, font-size 1s;
+}
+
+div#profile-caption.nameOnly {
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+}
+
+.caption h3 {
+  margin-top: 0px;
+  color: black;
+  opacity: 1 !important;
+}
+
+.show {
+  opacity: 1;
+}
