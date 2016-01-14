@@ -3,6 +3,7 @@ var ReactDOM = require('react-dom');
 var ReactFire = require('reactfire');
 var Firebase = require('firebase');
 var Header = require('./header');
+var Footer = require('./footer/footer');
 var ProfileHeader = require('./navbar/navbar-profile')
 var SectionGeneral = require('./section-general')
 var SectionSkills = require('./section-skills')
@@ -17,14 +18,14 @@ var Main = React.createClass({
   render: function() {
     return <div className="container">
       <div className="row">
-        <SectionGeneral className="col-lg-12 col-md-12 col-sm-12" iconClassName="glyphicon glyphicon-user" title="About Me" subTitle="Hi! I'm Dan. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/>
-      </div>
+        <SectionGeneral className="col-lg-12 col-md-12 col-sm-12 col-xs-12" iconClassName="glyphicon glyphicon-user" title="About Me" subTitle="Hi! I'm Dan. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/>
 
-      <SectionContact className="contact col-lg-6 col-md-12 col-sm-12" iconClassName="glyphicon glyphicon-list-alt" title="Contact"/>
-      <SectionHistory className="experience col-lg-6 col-md-12 col-sm-12" iconClassName="glyphicon glyphicon-list" historyItems={this.experience} title="Experience" />
-      <SectionSkills className="mySkills col-lg-6 col-md-12 col-sm-12" iconClassName="glyphicon glyphicon-console" title="My Skills"/>
-      <SectionHistory className="education col-lg-6 col-md-12 col-sm-12" iconClassName="glyphicon glyphicon-education" historyItems={this.education} title="Education" />
-      <SectionHobbies className="hobbies col-lg-6 col-md-12 col-sm-12" iconClassName="glyphicon glyphicon-list-alt" title="Hobbies"/>
+        <SectionContact className="contact col-lg-6 col-md-12 col-sm-12 col-xs-12" iconClassName="glyphicon glyphicon-list-alt" title="Contact"/>
+        <SectionHistory className="experience col-lg-6 col-md-12 col-sm-12 col-xs-12" iconClassName="glyphicon glyphicon-list" historyItems={this.experience} title="Experience" />
+        <SectionSkills className="mySkills col-lg-6 col-md-12 col-sm-12 col-xs-12" iconClassName="glyphicon glyphicon-console" title="My Skills"/>
+        <SectionHistory className="education col-lg-6 col-md-12 col-sm-12 col-xs-12" iconClassName="glyphicon glyphicon-education" historyItems={this.education} title="Education" />
+        <SectionHobbies className="hobbies col-lg-6 col-md-12 col-sm-12 col-xs-12" iconClassName="glyphicon glyphicon-list-alt" title="Hobbies"/>
+      </div>
     </div>
   },
   experience: [
@@ -114,3 +115,6 @@ ReactDOM.render(resume, document.querySelector('header'));
 
 var section = React.createElement(Main, {});
 ReactDOM.render(section, document.querySelector('.section'));
+
+var footer = React.createElement(Footer, {});
+ReactDOM.render(footer, document.querySelector('footer'));

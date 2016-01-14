@@ -1,7 +1,26 @@
-.col-lg-6 {
-  width: 48%;
-  margin-right: 1%;
-  margin-left: 1%;
+@media (min-width: 1200px) {
+  .col-lg-6 {
+    width: 48%;
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+  .mySkills {
+      margin-top: -240px;
+  }
+
+  .hobbies {
+      margin-top: -80px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .mySkills {
+      margin-top: 0px;
+  }
+
+  .hobbies {
+    margin-top: 105px;
+  }
 }
 
 span.business {
@@ -15,14 +34,6 @@ span.date {
 div.history-details {
   padding: 10px;
   margin-bottom: 23px;
-}
-
-.mySkills {
-    margin-top: -240px;
-}
-
-.hobbies {
-    margin-top: -80px;
 }
 
 .history-items {
