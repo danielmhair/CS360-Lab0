@@ -1,3 +1,7 @@
 .btn-group.btn-group-justified {
     padding: 15px;
 }
+
+.panel-heading {
+  cursor: pointer;
+}

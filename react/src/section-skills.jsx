@@ -41,31 +41,31 @@ module.exports = React.createClass({
     {
       name: "Java",
       type: "success",
-      percent: 80,
+      percent: 85,
       icon: "java-logo-sm"
     },
     {
       name: "Javascript",
-      type: "success",
-      percent: 75,
-      icon: "javascript-logo-sm"
+      type: "info",
+      percent: 85,
+      icon: "ion-social-javascript-outline"
     },
     {
       name: "NodeJS",
       type: "success",
-      percent: 70,
-      icon: "nodejs-logo-sm"
+      percent: 80,
+      icon: "ion-social-nodejs"
     },
     {
       name: "AngularJS",
-      type: "success",
-      percent: 60,
-      icon: "angularjs-logo-sm"
+      type: "info",
+      percent: 75,
+      icon: "ion-social-angular-outline"
     },
     {
       name: "React",
       type: "success",
-      percent: 30,
+      percent: 55,
       icon: "reactjs-logo-sm"
     }
   ]

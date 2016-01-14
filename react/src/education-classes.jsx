@@ -13,9 +13,7 @@ module.exports = React.createClass({
       <div onClick={this.handleClick} className="panel-heading">
         <div onClick={this.handleClick} className="panel-title">{this.props.title}<span className="icon-panel glyphicon glyphicon-check"></span></div>
       </div>
-      <div classNae="panel-body">
-        {this.body()}
-      </div>
+      {this.body()}
     </div>
   },
   handleClick: function() {
@@ -37,9 +35,11 @@ module.exports = React.createClass({
         );
       }
       
-      return <div className="btn-group btn-group-justified" role="group" aria-label="">
-        {children}
-      </div>
+      return <div className="panel-body">
+          <div className="btn-group btn-group-justified" role="group" aria-label="">
+            {children}
+          </div>
+        </div>
     } else {
       return;
     }

@@ -1,3 +1,65 @@
+.navbar-right {
+  float: right!important;
+  margin-right: -5px;
+  margin-top: -65px;
+  margin-bottom: -5px;
+  height: 65px;
+}
+
+.navbar-right.in {
+    position: relative;
+    left: 0px;
+    top: -160px;
+    height: 60px;
+}
+
+div#navbar.in ul {
+  display: initial !important;
+  opacity: 1;
+}
+
+.navbar-header {
+    height: 50px;
+}
+
+.ion-navicon {
+  color: white;
+  text-align: center;
+  font-size: 4em;
+  padding-right: 20px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .ion-navicon {
+    opacity: 1;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+  }
+  
+  #navbar-nav {
+    opacity: 0;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .ion-navicon {
+    opacity: 0;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+  }
+}
+
 .image-header .image-profile {
   border-radius: 150px;
   -webkit-border-radius: 150px;
